@@ -1,7 +1,6 @@
-use hell::gcd::gcd;
+use hell::algebra::log10;
 
 fn main() {
-    let numbers = vec![90, 20, 30];
-    let result = gcd(&numbers);
-    println!("The GCD of {:?} is {}", numbers, result);
+    let main = log10(15.0);
+    println!("{}", main);
 }
